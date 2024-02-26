@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+// import "./App.css";
 
-function App() {
+function BtnTheme() {
   const [theme, setTheme] = useState(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       return "dark";
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default BtnTheme;
